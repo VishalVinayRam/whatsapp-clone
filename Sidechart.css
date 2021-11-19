@@ -1,0 +1,78 @@
+
+.sidebar
+{
+    background-color:rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    padding: 10px;
+
+}
+.sidebar_search
+{
+    width: 95%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+.dp
+{
+    display: flex;
+    height: 1vh;
+    width: 1vw;
+    border-radius: 100%;
+}
+.sidebar__headerRight
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+
+}
+.sidebar_header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-right: 1px solid rgb(240, 235, 235);
+
+}
+.search
+{
+    width: 100%;
+}
+.sidebar__headerRight>.MuiSvgIcon-root
+{
+    margin-right: 2vw;
+    font-size: 24px;
+
+}
+.sidebar_search
+{
+    display: flex;
+    align-items: center;
+    background-color: white ;
+    height: 30px;
+    padding: 10px;
+    width: 95%;
+                                                                                                              ;
+}
+
+.sidebar_searchContainer
+{
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 242, 242);
+    width:100%;
+    height: 35%;
+    border-radius: 20px;
+}
+
+.sidebar_searchContainer > .MuiSvgIcon-root
+{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
