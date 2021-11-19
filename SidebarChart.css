@@ -1,0 +1,32 @@
+.messages
+{
+    display: flex;
+    font-size: x-small;
+}
+.sidebar_Chart
+{
+    display:flex;
+    padding: 15px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: -15px;
+}
+.sidebarChart:hover{
+    background-color: white;
+}
+.sidebarChart_info>h2
+{
+    font-size:16;
+    margin-bottom: 3px;
+}
+.sidebarChart_info
+{
+    margin: 5px;
+
+}
+.line1
+{
+    grid-row: 1;
+
+}
